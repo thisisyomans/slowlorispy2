@@ -7,6 +7,6 @@ setup(
     description = "Low bandwidth DoS tool. Slowloris rewrite in Python.",
     author = "Manas Taneja",
     author_email = "tanejamm@gmail.com",
-    url = "https://github.com/thisisyomans/slowlorispy",
+    url = "https://github.com/thisisyomans/slowlorispy2",
     keywords = ["dos", "http", "slowloris"]
 )
