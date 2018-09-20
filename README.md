@@ -20,8 +20,8 @@ That's all it takes to install and run slowloris.py.
 
 If you want to clone using git instead of pip, here's how you do it.
 
-* `git clone https://github.com/gkbrk/slowloris.git`
-* `cd slowloris`
+* `git clone https://github.com/thisisyomans/slowlorispy2.git`
+* `cd slowlorispy2`
 * `python3 slowloris.py example.com`
 
 ### SOCKS5 proxy support
