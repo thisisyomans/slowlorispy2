@@ -1,24 +1,26 @@
 # slowloris.py - Simple slowloris in Python
 
-## What is Slowloris?
-Slowloris is basically an HTTP Denial of Service attack that affects threaded servers. It works like this:
+## Slowloris?
+Slowloris is basically an HTTP DoS attack that affects threaded servers. How it works:
 
-1. We start making lots of HTTP requests.
-2. We send headers periodically (every ~15 seconds) to keep the connections open.
-3. We never close the connection unless the server does so. If the server closes a connection, we create a new one keep doing the same thing.
+1. Makes lots of HTTP requests.
+2. Send headers periodically to keep the connections open.
+3. Never close the connection unless the server does so, if it does, open a new one and keep doing the same thing
 
-This exhausts the servers thread pool and the server can't reply to other people.
+Eexhausts the servers thread pool and the server can't reply to other people.
 
-## How to install and run?
+## Installation and running?
 
-You can clone the git repo or install using **pip**. Here's how you run it.
+You can clone the git repo. Here's how you run it.
 
-* `sudo pip3 install slowloris`
-* `slowloris example.com`
+### Method 1:
 
-That's all it takes to install and run slowloris.py.
+* `git clone https://github.com/thisisyomans/slowlorispy2.git`
+* `cd type1_urlarg` <<<<< do this inside of slowlorispy2 directory
+* `python3 slowloris.py sitename.com` OR `python slowloris.py sitename.com`
+* python3 vs python depends on your PATH/environment variable
 
-If you want to clone using git instead of pip, here's how you do it.
+### Method 2:
 
 * `git clone https://github.com/thisisyomans/slowlorispy2.git`
 * `cd slowlorispy2`
