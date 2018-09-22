@@ -26,6 +26,7 @@ You can clone the git repo. Here's how you run it.
 * `cd type2_script` <<<<< do this inside of slowlorispy2 directory
 * `python3 example.py` OR `python example.py`
 * python3 vs python depends on your Python 3 PATH/environment variable
+* you must edit the site's domain from within the 'example.py' file
 
 ### SOCKS5 proxy support
 
